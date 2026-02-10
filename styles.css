@@ -1,14 +1,29 @@
-body { background-color: rgb(201, 60, 60);}
+body { 
+  background-image: (WAAAGHwithLogo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(90, 31, 199);
+}
 
+.Logo { 
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  height: 555px;
+  background-size: contain;
+  background-color: rgb(38, 187, 192);
+  gap: 55px;  
+}
 
-
-
-
-
-
-
-
+.tatt {
+  display:flexbox;
+  justify-content: center;
+  height: inherit;
+  background-color: chartreuse;
+  background-size: contain;
+  gap: 55px;  
+}
 
 footer {
-  min-height: 50px;
+  min-height: 100px;
 }
