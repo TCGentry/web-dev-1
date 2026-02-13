@@ -1,6 +1,8 @@
 body { 
-  background-image: (WAAAGHwithLogo.png);
+  background-image: url(WAAAGHwithLogo.png);
   background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
   background-attachment: fixed;
   background-color: rgb(90, 31, 199);
 }
@@ -23,7 +25,13 @@ body {
   background-size: contain;
   gap: 55px;  
 }
-
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  bottom: auto;
+  left: 0; 
+  background-color: darkgray;
+}
 footer {
   min-height: 100px;
 }
